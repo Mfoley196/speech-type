@@ -1,0 +1,9 @@
+Figure Descriptions:
+
+Figure 1: Two screenshots of our testing application on an Android phone. The left screenshot demonstrates our testing application with keyboard input, and the right shows our application with speech input. The left screenshot shows 3 adjacent clip art images of a grandmother, a heart, and a teddy bear, with an incomplete phrase in a textbox beneath the images. The right screenshot shows 3 images of a swingset, money, and a mother and child, with another incomplete phrase in a textbox.
+Figure 2: Four examples of image triads. Semantically similar pairs are in columns, and triads are in different rows. For instance, one row shows an apple, a doctor, and a house, but in one column, the apple is red, and in the other, the apple is green (and so on).
+Figure 3: A demonstation of how our transcription phrase sets were generated, showing how half the phrases came from compositions by participants, and the other half from a common pool of phrases from the first 11 participants. 
+Figure 4: Three bar graphs showing mean total times, mean prep times, and mean input times (with 95% confidence intervals) for Composition-Keyboard, Composition-Speech, Transcription-Keyboard, and Transcription-Speech. For total time and input time, keyboard input is slower than speech input, and transcription is faster than composition. For prep time, speech is slower than keyboard input.
+Figure 5: A bar graph showing mean words-per-minute with 95% confidence intervals for Composition-Keyboard, Composition-Speech, Transcription-Keyboard, and Transcription-Speech. Speech input is much faster, and transcription is much faster than composition.
+Figure 6: NASA-TLX results for composition and transcription. For transcription, speech is superior in every metric, but in composition, participants felt speech had reduced performance.
+Table 1: 8 examples of phrases composed for two image triads: "boy", "boat", "cat", and "woman", "mom-and-baby", and "plane".

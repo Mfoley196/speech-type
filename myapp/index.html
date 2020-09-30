@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Experiment</title>
+
+        <!--Adjusting the page on mobile screen  -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        <meta charset="utf-8">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+        <!-- JQ -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>        
+
+        <!--        Need to put this block AFTER jQuery but BEFORE JQM -->
+        <script>
+            //for bypassing the chrome error
+            $(document).bind('mobileinit', function () {
+                $.mobile.pushStateEnabled = false;
+            });
+        </script>
+
+        <!-- JQM -->
+        <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+        <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            padding: 0;
+            display: block;
+            margin: 0 auto;
+            max-height: 75%;
+            max-width: 75%;
+        }
+
+        input[type="radio"] {
+            -webkit-transform: scale(3.0); /* Chrome, Safari, Opera */
+            transform: scale(3.0);
+        }
+
+        .radioLeft input{
+            text-align: left;
+            display:inline;
+        }
+
+        input[name="msg"] {
+            height: 80px;
+        }
+
+        p {
+          font-size: 18px;
+        }
+
+        /*#transPhrase {
+            font-size: 18px;
+        }*/
+
+        </style>
+    </head>
+
+    <body>
+        <div data-role="page" id="menu">
+            <div data-role="content">
+
+                <b>Participant Number:</b>
+                <input type=text id="participantNo"></input>
+                <br><br>
+                <div class="radioLeft">
+                    <label for="Keyboard">Transcription: </label>
+                    <input type="radio" name="taskType" value="tr"><br>
+                    <label for="Speech">Composition: </label>
+                    <input type="radio" name="taskType" value="co"><br>
+                </div>
+                <br><br>
+
+                <div class="radioLeft">
+                    <label for="Keyboard">Keyboard: </label>
+                    <input type="radio" name="inputType" value="Keyboard"><br>
+                    <label for="Speech">Speech Recognition: </label>
+                    <input type="radio" name="inputType" value="Speech"><br>
+                </div>
+                <br><br>
+
+                <div class="radioLeft">
+                    <label for="A">A: </label>
+                    <input type="radio" name="startSet" value="A"><br>
+                    <label for="B">B: </label>
+                    <input type="radio" name="startSet" value="B"><br>
+                </div>
+                <br>
+                <br>
+
+                <div class="radioLeft">
+                    <label for="C">C: </label>
+                    <input type="radio" name="startSet" value="C"><br>
+                    <label for="D">D: </label>
+                    <input type="radio" name="startSet" value="D"><br>
+                </div>
+
+                <br>
+                <br>
+    
+                <a data-role="button" id="startExp">Begin Training Examples</a>
+
+            </div>
+        <div data-role="footer"><h3>Menu</h3></div>
+        </div>
+        <div data-role="page" id="experiment">
+            <div data-role="content">
+                <div id="compMode">
+                    <table style="width:auto" align="center">
+                        <td>
+                            <img id="img1" src="images/bee.png" style="width:auto;">
+                        </td>
+                        <td>
+                            <img id="img2" src="images/iPhone4.png" style="width:auto;">
+                        </td>
+                        <td>
+                            <img id="img3" src="images/apple.png" style="width:auto;">
+                        </td>
+                    </table>
+                    <div id="trainingPhrases">
+                        <p><b>Example Phrases:</b></p>
+                        <p id="exPhrases"></p>
+                    </div>
+                </div>
+                <div id="transMode">
+                    <p id="transPhrase"></p>
+                </div>
+                <textarea id="msg" required></textarea> 
+                <a data-role="button" id="saveButton">Next</a>
+                   
+            </div>
+            <div data-role="footer"><h3 id="headerText">Experiment</h3></div>
+        </div>
+
+        <div data-role="page" id="inputChange">
+            <div data-role="content">
+                <p id="nxtMtdTxt">You have completed 20 trials. Please listen to the experimenter's instructions, and then press <b>"Continue"</b> to continue the experiment.</p>
+                <a data-role="button" id="nextMethod" href="#experiment">Continue</a>
+            </div>
+            <div data-role="footer"><h3>Experiment</h3></div>
+        </div>
+
+        <div data-role="page" id="pause">
+            <div data-role="content">
+                <div id="pauseTxt">
+                    <p id="nxtMtdTxt">Press <b>"Continue"</b> to move on to the next trial.</p>
+                </div>
+                <div id="hidePhrases">
+                    <p>You will now compose phrases without examples. </p>
+                    
+                    <p>Press <b>"Continue"</b> to move on to the next trial.</p>
+                </div>
+                <div id="modeSwitch">
+                    <p>You have completed the training examples. Press <b>"Continue"</b> 
+                    to begin the experiment.</p>
+                </div>
+                <a data-role="button" id="nextButton" href="#experiment">Continue</a>
+            </div>
+            <div data-role="footer"><h3>Experiment</h3></div>
+        </div>
+
+        <div data-role="page" id="studyDone">
+            <div data-role="content">
+                <p>Thank you for completing this experiment!</p>
+                <a data-role="button" href="#menu">Back to menu</a>
+            </div>
+            <div data-role="footer"><h3>Experiment</h3></div>
+        </div>
+        
+        <script src="scripts/Experiment.js"></script>
+    </body>
+</html>

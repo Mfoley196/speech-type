@@ -1,0 +1,32 @@
+pNo,Gender,Age,OwnPhone,PhoneModel,PhoneOS,UsesPerHour,UseLength,UsedDict,DictFreq,DictUses,OwnAlexa,WhyNotDict,OwnAlexa2,AlexaFreq
+1,Male,25,Yes,Moto G5,Android,11 - 15 times,1-2 minutes,No,,,,I feel awkward when talking out loud to my phone in public.,No,
+2,Male,23,Yes,Moto G (falcon),Android,0 - 1 times,31-59 seconds,No,,,,Generally prefer typing; doesn't work well without internet connection,No,
+3,Male,25,Yes,Pixel 2,Android,2 - 5 times,31-59 seconds,No,,,,Because it looks weird in public,No,
+4,Female,29,Yes,pixel II,Android,2 - 5 times,1-2 minutes,Yes,Only tried it once or twice,writing a message when I couldn't stop and type (e.g. I was walking),Yes,,,Monthly
+5,Male,22,Yes,ASUS Zenphone Max Pro M1,Android,11 - 15 times,0-10 seconds,Yes,Only tried it once or twice,To search songs,Yes,,,Daily
+6,Female,25,Yes,Android,Android,15+ times,1-2 minutes,Yes,Monthly,"1. Searching on the web, 2. posing queries to Google Assistant, 3. while using Google Home",Yes,,,Weekly
+7,Female,20,Yes,iPhone,iOS,2 - 5 times,3-5 minutes,Yes,Daily,"text, emails, anytime i have to type",No,,,
+8,Male,24,Yes,iPhone 8,iOS,15+ times,31-59 seconds,No,,,,"I just feel awkward speaking out loud, especially if there are other people in the room.",No,
+9,Female,23,Yes,Nokia 8.1 (or 8.0??),Android,2 - 5 times,31-59 seconds,Yes,Only tried it once or twice,"Just to try it out, maybe it was when searching something on Google",Yes,,,Daily
+10,Male,25,Yes,iphone 7,iOS,2 - 5 times,0-10 seconds,Yes,Only tried it once or twice,composing an email,Yes,,,Daily
+11,Male,24,Yes,OnePlus One,Android,15+ times,3-5 minutes,No,,,,It's less precise,No,
+12,Female,28,Yes,Sony,Android,6 - 10 times,1-2 minutes,No,,,,Never thought about it before. But I think I like text because I can take my time when composing the sentences,No,
+13,Male,31,Yes,iPhone 6,iOS,15+ times,10+ minutes,Yes,Monthly,"sending text message, Siri",Yes,,,Daily
+14,Male,20,Yes,iPhone 8,iOS,6 - 10 times,1-2 minutes,No,,,,"I don't want others around me to hear what I want to say. It is harder to correct sentences, and I generally prefer typing stuff instead of talking out loud.",No,
+15,Male,27,Yes,Motorola G5 Plus,Android,6 - 10 times,1-2 minutes,Yes,Only tried it once or twice,For texting,No,,,
+16,Male,26,Yes,Samsung S8,Android,2 - 5 times,31-59 seconds,Yes,Only tried it once or twice,Typing a text message,No,,,
+17,Male,26,Yes,Apple iPhone 8,iOS,15+ times,3-5 minutes,Yes,Monthly,To send messages when I am walking towards the bus stop,Yes,,,Daily
+18,Male,26,Yes,Redmi Note 5 Pro,Android,2 - 5 times,3-5 minutes,Yes,Weekly,"Sending text messages while driving, playing voice based trivia games.",Yes,,,Weekly
+19,Female,26,Yes,Samsung J7 Pro,Android,6 - 10 times,10+ minutes,Yes,Weekly,Google search,No,,,
+20,Female,29,Yes,Samsung Galaxy S8,Android,2 - 5 times,11-30 seconds,No,,,,I need to make corrections even after using dictation,Yes,Daily
+21,Male,24,Yes,Pixel 2 XL,Android,2 - 5 times,11-30 seconds,Yes,Monthly,"Responding to texts while busy (driving, cooking, etc.)",No,,,
+22,Male,22,Yes,Samsung Galaxy A8,Android,6 - 10 times,1-2 minutes,No,,,,I don't like saying messages aloud that are meant for a specific person,No,
+23,Female,23,Yes,iPhone SE,iOS,6 - 10 times,1-2 minutes,No,,,,"Privacy reasons because I don't want people to know what I'm messaging, and also it's considered weird to talk out loud in public when no one is there. Also for text messaging, there are a lot of acronyms that voice recognition would not understand; eg. LMAO, FML, tmrw that is commonplace in normal messaging.",No,
+24,Female,21,Yes,One plus 1,Android,2 - 5 times,6-10 minutes,Yes,Only tried it once or twice,For composing messages I would send to friends/family,Yes,,,Weekly
+25,Male,24,Yes,iPhone X,iOS,2 - 5 times,31-59 seconds,Yes,Only tried it once or twice,"Web search, Siri, and messaging. ",No,,,
+26,Male,30,Yes,iphone X,iOS,2 - 5 times,31-59 seconds,Yes,Monthly,for quick reply to a message by friends,Yes,,,Daily
+27,Male,23,Yes,Iphone 7,iOS,2 - 5 times,11-30 seconds,Yes,Only tried it once or twice,To dictate a message to Siri while driving,No,,,
+28,Female,29,Yes,iphone,iOS,15+ times,0-10 seconds,Yes,Daily,When I don't know how to spell the word. ,Yes,,,Daily
+29,Female,37,Yes,i phone,iOS,0 - 1 times,6-10 minutes,No,,,,Didn't know it would be so accurate.,No,
+30,Male,58,Yes,Samsung Note9,Android,2 - 5 times,1-2 minutes,Yes,Only tried it once or twice,Sending text messages.,Yes,,,Daily
+31,Female,18,Yes,iPhone XR,iOS,15+ times,3-5 minutes,Yes,Only tried it once or twice,Texting,No,,,

@@ -25,8 +25,18 @@ series = {CHI '20}
 }
 ```
 
+# Running the Experiment Application
+
+Node.js is required. To run, type "node app-server.js" in the myapp/ folder on the command lime. The main experiment script is in the scripts/ folder, called "Experiment.js"
+
+# Data Analysis
+
+See the readme in the Analysis folder for more details.
+
+# File Descriptions
+
 In Analysis/:
-- Files needed to analyze data. See readme in folder for more info
+- Files needed to analyze data.
 
 In Images/:
 - Two folders with the two variants of clip art. images/ holds the script used to generate triads.
@@ -34,6 +44,4 @@ In Images/:
 
 In myapp/:
 - Files for the testing application, which uses Node.js
-- To run, type "node app-server.js" in the myapp/ folder
-- The main experiment script is in the scripts/ folder, called "Experiment.js"
 
